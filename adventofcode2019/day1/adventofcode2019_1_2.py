@@ -26,6 +26,7 @@ while sum(ss) != 0:
     data = ss
 
 
+
 mass_file.close()
 
 
