@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7067b72-c185-46ed-bc6c-40cd0b4e532d" name="Default" comment="wyzerowanie danych z zadania z dnia 2" />
+    <list default="true" id="a7067b72-c185-46ed-bc6c-40cd0b4e532d" name="Default" comment="dodany dzien 8" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +16,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -76,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576095521783</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="dodany dzien 8">
+      <created>1576095747122</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576095747122</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,6 +99,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="wyzerowanie danych z zadania z dnia 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="wyzerowanie danych z zadania z dnia 2" />
+    <MESSAGE value="dodany dzien 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="dodany dzien 8" />
   </component>
 </project>
