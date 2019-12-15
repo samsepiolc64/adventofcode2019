@@ -21,7 +21,7 @@ for i in range(100):
         layers_tmp.append(line)
         a += 25
         z += 25
-print(layers)
+#print(layers)
 layers = []
 a, z = 0, 6
 for i in range(100):
@@ -30,14 +30,28 @@ for i in range(100):
     a += 6
     z += 6
 print(layers)
-
-for i in range(100):
-    for j in range(6):
-        for k in range(25):
-            print(layers[i][j][k])
-
-
-
-
-
+picture = []
+pixel = ' '
+line = ''
+for j in range(0,6):
+    for i in range(0,25):
+        for k in range(0,100):
+            if layers[k][j][i] == '2' and pixel != '1' and pixel != '0' and pixel != '2':
+                pixel = '2'
+            elif layers[k][j][i] == '1' and pixel != '0':
+                pixel = '1'
+            elif layers[k][j][i] == '0' and pixel != '1':
+                pixel = '0'
+        if pixel == '1':
+            pixel = '*'
+        elif pixel == '0':
+            pixel = ' '
+        elif pixel == '2':
+            pixel = '.'
+        line += pixel
+        pixel = ' '
+    picture.append(line)
+    line = ''
+for i in picture:
+    print(i)
 mass_file.close()
